@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.237" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="background demo" name="checking with valid inputs" time="0.024">
+<system-out><![CDATA[
+Given user is login to application..........................................passed
+When user should open chrome browser........................................passed
+Then user should enter url..................................................passed
+Then user should enter username and password................................passed
+]]></system-out>
+</testcase>
+<testcase classname="background demo" name="Checking with invalid inputs" time="0.003">
+<system-out><![CDATA[
+Given user is login to application..........................................passed
+When user should open chrome browser........................................passed
+Then user should enter url..................................................passed
+Then user should enter invalid username and invalid password................passed
+]]></system-out>
+</testcase>
+</testsuite>
